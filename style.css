@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+  color: #40382f;
+  /* background-color: #faf8f5; */
+  background-color: #f9f4ef;
+  /* background-image: radial-gradient(
+    circle at 10% 20%,
+    rgba(216, 180, 160, 0.05) 0%,
+    rgba(245, 235, 224, 0.07) 90%
+  ); */
+  line-height: 1.6;
+  font-size: 16px;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  padding: 2rem;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+header ul {
+  display: flex;
+  align-items: center;
+}
+
+header ul li {
+  list-style: none;
+  margin-right: 1.5rem;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: rgba(70, 63, 58, 0.8);
+  font-weight: 500;
+  font-size: 0.875rem;
+}
+
+header ul li a:hover {
+  color: rgb(135 97 107 /1);
+}
+
+.logo-title {
+  color: #87616b;
+  font-family: "Playfair Display", serif;
+  font-size: 2rem;
+}
+
+.hero {
+  font-size: 3rem;
+  max-width: 48rem;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #f9f4ef;
+  padding-bottom: 6rem;
+}
+
+.hero span {
+  color: #87616b;
+}
+
+.hero-text {
+  text-align: center;
+  font-size: 1.125rem;
+  color: rgba(64, 56, 47, 0.8);
+}
+
+.title {
+  display: inline-flex;
+  border-radius: 6px;
+  border: 1px dashed rgba(135, 97, 107, 0.3);
+  text-align: center;
+  color: rgba(135, 97, 107, 0.9);
+  font-size: 0.875rem;
+  padding: 0.25rem 0.75rem;
+  background-image: repeating-linear-gradient(
+    45deg,
+    transparent,
+    transparent 5px,
+    rgba(135, 97, 107, 0.05) 5px,
+    rgba(135, 97, 107, 0.05) 10px
+  );
+}
+
+.begin-jorney {
+  text-align: center;
+  font-family: "Playfair Display", serif;
+}
+
+.about {
+  background-color: #fffbf8;
+  padding: 2rem;
+}
+
+footer {
+}
+
+.footer-copy {
+  text-align: center;
+  background-color: rgba(225, 215, 235, 0.2);
+  padding: 3rem 0;
+  position: relative;
+  color: rgba(64, 56, 47, 0.6);
+  font-size: 0.875rem;
+}
+
+.btn {
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  font-size: 0.875rem;
+  cursor: pointer;
+  border: none;
+  font-weight: 500;
+}
+
+.btn-primary {
+  background-color: #d8b4a0;
+  color: rgb(255 255 255);
+}
+
+.btn-primary:hover {
+  background-color: rgba(216, 180, 160, 0.9);
+  color: rgb(255 255 255);
+}
+
+.btn-secondary {
+  background-color: #fcfaf8;
+  color: rgb(135 97 107 / 1);
+  border: 1px solid rgba(135, 97, 107, 0.3);
+}
+.btn-secondary:hover {
+  background-color: rgba(245, 235, 224, 0.9);
+  color: rgb(64 56 47);
+}
