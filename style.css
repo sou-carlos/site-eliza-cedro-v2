@@ -94,6 +94,8 @@ header ul li a:hover {
   font-family: "Playfair Display", serif;
 }
 
+/******************************** ABOUT STYLES ********************************/
+
 .about {
   background-color: #fffbf8;
   padding: 2rem;
@@ -124,6 +126,8 @@ header ul li a:hover {
   padding: 2rem;
 }
 
+/******************************** SERVICE STYLES ********************************/
+
 .services {
   background: repeating-linear-gradient(
     90deg,
@@ -133,6 +137,13 @@ header ul li a:hover {
     rgba(245, 235, 224, 0.1) 20px
   );
   padding: 2rem;
+}
+
+.card-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 1rem;
+  row-gap: 1em;
 }
 
 .card-service {
