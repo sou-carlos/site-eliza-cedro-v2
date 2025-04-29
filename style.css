@@ -126,6 +126,29 @@ header ul li a:hover {
   padding: 2rem;
 }
 
+@media screen and (max-width: 768px) {
+  .about-wrapper {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .profile-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .about-text {
+    display: flex;
+    width: 100%;
+    padding: 2rem;
+
+    flex-direction: column;
+  }
+}
+
 /******************************** SERVICE STYLES ********************************/
 
 .services {
@@ -137,6 +160,24 @@ header ul li a:hover {
     rgba(245, 235, 224, 0.1) 20px
   );
   padding: 2rem;
+}
+
+.services h3 {
+  text-align: center;
+  font-size: 2rem;
+  color: #87616b;
+}
+
+.services p {
+  text-align: center;
+}
+
+.services-hr {
+  border: none;
+  height: 1px;
+  width: 90%;
+  background-color: rgba(135, 97, 107, 0.3);
+  margin: 2rem auto;
 }
 
 .card-wrapper {
@@ -166,6 +207,11 @@ header ul li a:hover {
 .card-service p {
   padding: 1.5rem;
 }
+/******************************** SESSÕES STYLES ********************************/
+
+.atendimento {
+  padding: 2rem;
+}
 
 /******************************** FOOTER STYLES ********************************/
 
@@ -186,11 +232,10 @@ footer {
 
 .footer-copy {
   text-align: center;
-
-  /* position: relative; */
-
   font-size: 0.875rem;
 }
+
+/******************************** COMPONENTS STYLES ********************************/
 
 .btn {
   padding: 0.75rem 1.5rem;
@@ -219,4 +264,30 @@ footer {
 .btn-secondary:hover {
   background-color: rgba(245, 235, 224, 0.9);
   color: rgb(64 56 47);
+}
+
+.whatsapp-button {
+  position: fixed;
+  bottom: 50px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  background-color: #25d366;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease-in-out;
+  z-index: 1000;
+}
+
+.whatsapp-button img {
+  width: 35px;
+  height: 35px;
+}
+
+.whatsapp-button:hover {
+  transform: scale(1.1);
+  cursor: pointer;
 }
