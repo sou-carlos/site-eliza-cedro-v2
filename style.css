@@ -167,15 +167,28 @@ header ul li a:hover {
   padding: 1.5rem;
 }
 
+/******************************** FOOTER STYLES ********************************/
+
 footer {
+  border-top: 1px solid rgba(135, 97, 107, 0.3);
+  background-color: rgba(225, 215, 235, 0.2);
+  padding: 2rem;
+  color: rgba(64, 56, 47, 0.6);
+}
+
+.footer-hr {
+  border: none;
+  height: 1px;
+  width: 90%;
+  background-color: rgba(135, 97, 107, 0.3);
+  margin: 2rem auto;
 }
 
 .footer-copy {
   text-align: center;
-  background-color: rgba(225, 215, 235, 0.2);
-  padding: 3rem 0;
-  position: relative;
-  color: rgba(64, 56, 47, 0.6);
+
+  /* position: relative; */
+
   font-size: 0.875rem;
 }
 
