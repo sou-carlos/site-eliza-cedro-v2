@@ -99,6 +99,63 @@ header ul li a:hover {
   padding: 2rem;
 }
 
+.about-wrapper {
+  display: flex;
+  width: 100%;
+}
+
+.profile-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.profile-wrapper img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 0.5rem;
+  box-shadow: rgba(135, 97, 107, 0.3) 0px 10px 20px -10px,
+    rgba(135, 97, 107, 0.3) 0px 10px 10px -5px;
+}
+
+.about-text {
+  width: 50%;
+  padding: 2rem;
+}
+
+.services {
+  background: repeating-linear-gradient(
+    90deg,
+    rgba(216, 180, 160, 0.1),
+    rgba(216, 180, 160, 0.1) 10px,
+    rgba(245, 235, 224, 0.1) 10px,
+    rgba(245, 235, 224, 0.1) 20px
+  );
+  padding: 2rem;
+}
+
+.card-service {
+  border: 1px solid rgba(135, 97, 107, 0.3);
+  border-radius: 0.5rem;
+  background-image: repeating-linear-gradient(
+    45deg,
+    transparent,
+    transparent 5px,
+    rgba(135, 97, 107, 0.05) 5px,
+    rgba(135, 97, 107, 0.05) 10px
+  );
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.card-service h5 {
+  padding: 1.5rem;
+}
+
+.card-service p {
+  padding: 1.5rem;
+}
+
 footer {
 }
 
